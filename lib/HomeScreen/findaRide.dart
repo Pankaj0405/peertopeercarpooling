@@ -88,7 +88,7 @@ class RideStream extends StatelessWidget {
   Widget build(BuildContext context) {
     return StreamBuilder(
       stream: _firestore
-          .collection('rides')
+          .collection('rides').where('destination' ,isEqualTo:'Mumbai')
       // Sort the messages by timestamp DESC because we want the newest messages on bottom.
           .orderBy("timestamp", descending: true)
           .snapshots(),
