@@ -117,7 +117,7 @@ class _OtpHomeState extends State<OtpHome> {
           ),
 
           Padding(
-            padding: const EdgeInsets.only(top:170),
+            padding: const EdgeInsets.only(top:110),
             child: Align(
                 child: Text("©2024, Peer 2 Peer Carpooling",style: TextStyle(color: Colors.grey),),
                 alignment: Alignment.bottomCenter,
