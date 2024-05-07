@@ -112,7 +112,15 @@ class CitiesService {
       "West Tower Street",
       "West Vadampokki Street",
       "West Veli Street",
-      "Mumbai"
+      "Mumbai",
+      "Borivali",
+      "Andheri",
+      "Bandra",
+      "Malad", "Dadar", "Juhu", "Goregaon",
+      "Khar", "Santacruz", "Colaba", "Chembur", "Versova", "Worli", "Kurla",
+      "Powai", "Vile Parle", "Marine Lines", "Lower Parel", "Mulund",
+      "Ghatkopar", "Dahisar", "Byculla", "Parel", "Mahim", "Matunga",
+      "Sion", "Wadala"
 
    ];
 
